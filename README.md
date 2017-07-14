@@ -30,3 +30,5 @@ To set up:
 6. Add validation for positive number.
 
 7. Add flash for sign up, sign in, and sign out.
+
+8. Add RailsAdmin, handling product update/delete as well as quick commands in navbar.
