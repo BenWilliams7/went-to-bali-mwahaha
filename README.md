@@ -4,6 +4,12 @@ E-commerce site. Uses `bcrypt` and `materialize`. There's a seed file. Set up yo
 
 To set up:
 
+*
+
 * `rake db:setup`
 
 * Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
+
+## Refactoring
+
+Add AJAX elements for asynchronous loading.
