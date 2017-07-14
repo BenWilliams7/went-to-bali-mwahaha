@@ -8,8 +8,12 @@ class UsersController < ApplicationController
     if user.save
       session[:user_id] = user.id
       redirect_to '/'
+      flash[:alert] = "You have created a new user! Welcome :)"
+
     else
+
       redirect_to '/signup'
+      flash[:alert] = "Signup failed :("
     end
   end
 

@@ -1,4 +1,8 @@
-# README
+# README for Ecommerce Website
+
+Refactor by Ben Williams
+
+##About the site
 
 E-commerce site. Uses `bcrypt` and `materialize`. There's a seed file. Set up your own admin. If you have questions, I'll be in Bali with no email. Ask someone else.
 
@@ -22,3 +26,7 @@ To set up:
 
 5. Add image column to products and migrate.
 (*Sidenote on fixed bug:* Accidentally rolled back a previous migration. When migrate was run again that migration generated a default that broke the application. Had to reset the browser cache in addition to rake db:reset in order to fix the app as just fixing the migration and resetting alone didn't fix it.)
+
+6. Add validation for positive number.
+
+7. Add flash for sign up, sign in, and sign out.
