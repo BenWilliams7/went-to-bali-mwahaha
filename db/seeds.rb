@@ -27,7 +27,7 @@ class Seed
       admin: true
     )
   end
-end    
+end
 
 
 Seed.begin
