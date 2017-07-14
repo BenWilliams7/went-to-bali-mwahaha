@@ -15,3 +15,7 @@ To set up:
 1. Added AJAX elements to asynchronously update the shopping cart with products on the index.
 
 2. Fixed bug that occurred when no quantity was added.
+
+3. Added asynchronous display of product info when clicking on a product's name.
+
+4. Add asynchronous delete and update of shopping carts. 
