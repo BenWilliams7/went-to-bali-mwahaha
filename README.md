@@ -21,3 +21,4 @@ To set up:
 4. Add asynchronous delete and update of shopping carts.
 
 5. Add image column to products and migrate.
+(*Sidenote on fixed bug:* Accidentally rolled back a previous migration. When migrate was run again that migration generated a default that broke the application. Had to reset the browser cache in addition to rake db:reset in order to fix the app as just fixing the migration and resetting alone didn't fix it.)
