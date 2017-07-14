@@ -18,4 +18,6 @@ To set up:
 
 3. Added asynchronous display of product info when clicking on a product's name.
 
-4. Add asynchronous delete and update of shopping carts. 
+4. Add asynchronous delete and update of shopping carts.
+
+5. Add image column to products and migrate.
