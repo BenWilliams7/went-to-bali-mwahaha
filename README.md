@@ -10,6 +10,8 @@ To set up:
 
 * Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
 
-## Refactoring
+## Refactoring and Bug Fixes
 
-Add AJAX elements for asynchronous loading.
+1. Added AJAX elements to asynchronously update the shopping cart with products on the index.
+
+2. Fixed bug that occurred when no quantity was added.
