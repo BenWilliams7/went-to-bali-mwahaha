@@ -1,5 +1,6 @@
-
-<p><%= @product.name.upcase %></p>
-<p><%= @product.description %></p>
-<p><%= number_to_currency @product.price %></p>
-<%= image_tag(@product.image) %>
+<div id="item">
+  <p><%= @product.name.upcase %></p>
+  <p><%= @product.description %></p>
+  <p><%= number_to_currency @product.price %></p>
+  <%= image_tag(@product.image) %>
+</div>
