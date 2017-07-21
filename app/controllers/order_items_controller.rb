@@ -7,7 +7,7 @@ class OrderItemsController < ApplicationController
       respond_to do |format|
         session[:order_id] = @order.id
         format.js
-      end  
+      end
     else
       redirect to products_path
     end
@@ -23,12 +23,14 @@ class OrderItemsController < ApplicationController
   def destroy
     @order = current_order
     @item = @order.order_items.find(params[:id])
-    @item.destroy
-    @order.save
-    respond_to do |format|
-      format.html
-      format.js { redirect_to cart_path }
+    @order_items = current_order.order_items
+    if @item.destroy
+      respond_to do |format|
+        format.js
+        format.html
+      end
     end
+    @order.save
   end
 
   private
